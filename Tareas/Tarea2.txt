@@ -1,0 +1,202 @@
+trace ("Jesus Alberto Lumbreras Ruiz-Actividad 2");
+trace ("Matricula:1730049");
+//Variable para guardar total de nomina
+var TotalN:Number;
+//Se inicializa la variable en 0 para que no tengamos errores
+TotalN = 0;
+
+//Variable para guardar el promedio de la edad
+var PromedioEdad:Number;
+
+//Utilizaremos variables distintas para cada una de las personas
+//para no tener problema al hacer las operaciones que 
+//se requieren
+
+//Ingresaremos el registro de la primer persona
+var nombre1:String = "Alberto Ruiz";
+var edad1:Number = 25;
+var matricula1:Number = 1730049;
+var carrera1:String = "Tecnologias de la informacion";
+var fechaDN1:String = "02 de enero 1993";
+var sexo1:String = "Hombre";
+var sueldo1:Number = 2500;
+var domicilio1:String = "Calle Francisco Marquez N#122 Col.Niños heroes";
+var email1:String = "AlbertoRz_02@gmail.com";
+
+//Condicion para si la edad es menor a 30 y es mujer
+//poder sacar la nomina
+if (edad1<30 && sexo1=="Mujer"){
+	TotalN = TotalN+sueldo1;
+}
+
+//Ingresaremos el registro de la segunda persona
+var nombre2:String = "Claudia Carrizales";
+var edad2:Number = 38;
+var matricula2:Number = 1730048;
+var carrera2:String = "Tecnologias de la informacion";
+var fechaDN2:String = "07 de julio de 1980";
+var sexo2:String = "Mujer";
+var sueldo2:Number = 5000;
+var domicilio2:String = "Calle linda vista N#023 Col.Nueva era";
+var email2:String = "Claudia.Piña.Bigotes04@gmail.com";
+
+//Condicion para si la edad es menor a 30 y es mujer
+//poder sacar la nomina
+if (edad2<30 && sexo2=="Mujer"){
+	TotalN = TotalN+sueldo2;
+}
+
+//Ingresaremos el registro de la tercer persona
+var nombre3:String = "Roberto Cedillo";
+var edad3:Number = 23;
+var matricula3:Number = 1349984;
+var carrera3:String = "Ingenieria en sistemas";
+var fechaDN3:String = "16 de Octubre 1995";
+var sexo3:String = "Hombre";
+var sueldo3:Number = 2460;
+var domicilio3:String = "Calle Revolucion verde N#1021 Col.Tamatan";
+var email3:String = "Roberto_1995@gmail.com";
+
+//Condicion para si la edad es menor a 30 y es mujer
+//poder sacar la nomina
+if (edad3<30 && sexo3=="Mujer"){
+	TotalN = TotalN+sueldo3;
+}
+
+//Ingresaremos el registro de la cuarta persona
+var nombre4:String = "Alejandra Lopez";
+var edad4:Number = 25;
+var matricula4:Number = 1731324;
+var carrera4:String = "Informatica";
+var fechaDN4:String = "23 de marzo de 1993";
+var sexo4:String = "Mujer";
+var sueldo4:Number = 3450;
+var domicilio4:String = "Calle Rosas N#032 Col.Las Flores";
+var email4:String = "Ale_Lopez_98@gmail.com";
+
+//Condicion para si la edad es menor a 30 y es mujer
+//poder sacar la nomina
+if (edad4<30 && sexo4=="Mujer"){
+	TotalN = TotalN+sueldo4;
+}
+
+//Ingresaremos el registro de la Quinta persona
+var nombre5:String = "Elizabeth Gomez";
+var edad5:Number = 25;
+var matricula5:Number = 1744483;
+var carrera5:String = "Tecnologias de la informacion";
+var fechaDN5:String = "13 de Abril de 1999";
+var sexo5:String = "Mujer";
+var sueldo5:Number = 3120;
+var domicilio5:String = "Calle Las palmas N#145 Col.Arboles";
+var email5:String = "Eli_10_Gomez@hotmail.com";
+
+//Condicion para si la edad es menor a 30 y es mujer
+//poder sacar la nomina
+if (edad5<30 && sexo5=="Mujer"){
+	TotalN = TotalN+sueldo5;
+}
+
+//Ingresaremos el registro de la Sexta persona
+var nombre6:String = "Jorge Lumbreras";
+var edad6:Number = 35;
+var matricula6:Number = 1720457;
+var carrera6:String = "Mecatronica";
+var fechaDN6:String = "19 de Agosto de 1983";
+var sexo6:String = "Hombre";
+var sueldo6:Number = 4000;
+var domicilio6:String = "Calle Nueva vista N#010 Col.Revolucion verde";
+var email6:String = "Jorge.Lur.83@gmail.com";
+
+//Condicion para si la edad es menor a 30 y es mujer
+//poder sacar la nomina
+if (edad6<30 && sexo6=="Mujer"){
+	TotalN = TotalN+sueldo6;
+}
+
+//Ingresaremos el registro de la Septima persona
+var nombre7:String = "Arnoldo Robles";
+var edad7:Number = 40;
+var matricula7:Number = 1731395;
+var carrera7:String = "Telematica";
+var fechaDN7:String = "28 de Diciembre de 1978";
+var sexo7:String = "Hombre";
+var sueldo7:Number = 3850;
+var domicilio7:String = "Calle San jose N#1234 Col.Republica Mexicana";
+var email7:String = "Noldo_28_78@hotmail.com";
+
+//Condicion para si la edad es menor a 30 y es mujer
+//poder sacar la nomina
+if (edad7<30 && sexo7=="Mujer"){
+	TotalN = TotalN+sueldo7;
+}
+
+//Ingresaremos el registro de la Octava persona
+var nombre8:String = "Kevin Rodriguez";
+var edad8:Number = 22;
+var matricula8:Number = 1935429;
+var carrera8:String = "Ingenieria industrial";
+var fechaDN8:String = "17 de noviembre de 1996";
+var sexo8:String = "Hombre";
+var sueldo8:Number = 3950;
+var domicilio8:String = "Calle Las lomas N#420 Col.Echeverria";
+var email8:String = "El_Kevin_02@gmail.com";
+
+//Condicion para si la edad es menor a 30 y es mujer
+//poder sacar la nomina
+if (edad8<30 && sexo8=="Mujer"){
+	TotalN = TotalN+sueldo8;
+}
+
+//Ingresaremos el registro de la Novena persona
+var nombre9:String = "Cecilia Martinez";
+var edad9:Number = 28;
+var matricula9:Number = 1734592;
+var carrera9:String = "Informatica";
+var fechaDN9:String = "01 de febrero de 1990";
+var sexo9:String = "Mujer";
+var sueldo9:Number = 3600;
+var domicilio9:String = "Calle Marte R.Gomez N#042 Col.Vista hermosa";
+var email9:String = "Ceci.Martinez_23@gmail.com";
+
+//Condicion para si la edad es menor a 30 y es mujer
+//poder sacar la nomina
+if (edad9<30 && sexo9=="Mujer"){
+	TotalN = TotalN+sueldo9;
+}
+
+//Ingresaremos el registro de la Decima persona
+var nombre10:String = "Sofia Marquez";
+var edad10:Number = 31;
+var matricula10:Number = 1823048;
+var carrera10:String = "Tecnologias de la informacion";
+var fechaDN10:String = "24 de Octubre de 1987";
+var sexo10:String = "Mujer";
+var sueldo10:Number = 3000;
+var domicilio10:String = "Calle Juan Escutia N#145 Col.Solidaridad";
+var email10:String = "Sofia.Marquez.ITI@gmail.com";
+
+//Condicion para si la edad es menor a 30 y es mujer
+//poder sacar la nomina
+if (edad10<30 && sexo10=="Mujer"){
+	TotalN = TotalN+sueldo10;
+}
+
+//Condicionaremos para verificar si la nomina de las trabajadoras
+//es mayor a 10,000 y menor a 50,000
+
+if (TotalN>10000 && TotalN<50000) {
+	trace ("La nomina de las trabajadoras menores a 30 años es:$",(TotalN));
+}
+else {
+	trace ("La nomina de las empleadas no esta en el rango adecuado");
+}
+
+//Sacaremos el promedio de todas las edades
+PromedioEdad = (edad1+edad2+edad3+edad4+edad5+edad6+edad7+edad8+edad9+edad10)/10;
+//Si el promedio es mayor a 23 entonces se manda un mensaje
+//de la edad no joven
+if (PromedioEdad>23) {
+	trace ("Edad no joven");
+}
+trace ("Fin del programa");
